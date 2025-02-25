@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+   
+</head>
+<body onload="readAll()">
+    <header class="nav-flex">
+        <div>
+            <h1 class="nav-header"><a href="../index.html">LearnHub</a></h1>
+        </div>
+        <div>
+            <a class="nav-anchor" href="#">Admin</a>
+        </div>
+    </header>
+    <section class="form-section">
+        <h1 class="main-header">Fill This Form</h1>
+        <div class="main">
+            <div class="form-left">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                    <label for="name">Email:</label>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email">
+                    <label for="name">Course:</label>
+                    <select name="course" id="course">
+                        <option value=""></option>
+                        <option value="React Basics">React Basics</option>
+                        <option value="UI/UX">UI/UX</option>
+                        <option value="Javascript Fundamentals">Javascript Fundamentals</option>
+                        <option value="Baxkend Development">Baxkend Development</option>
+                        <option value="Advanced Css">Advanced Css</option>
+
+
+                    </select>
+            </div>
+            <div class="form-left">
+                <label for="name">Role:</label>
+                <input type="text" name="role" id="role" placeholder="Enter Your Role">
+                <label for="name">Phone Number:</label>
+                <input type="text" name="number" id="number" placeholder="Enter Your Number">
+                <label for="name">Status:</label>
+                <select name="status" id="status">
+                    <option value=""></option>
+                    <option value="Placed">Placed</option>
+                    <option value="Unplaced">Unplaced</option>
+                </select>
+            </div>
+        </div>
+        <div class="btn-end">
+        <button type="button" onclick="add()" class="submit-btn">
+            Submit
+        </button>
+    </div>
+    </section>
+    
+                               
+            <div class="card">
+                <div class="card-body">
+                </div>
+              </div>
+             
+             
+              <footer class="footer-section">
+                <h1 class="foot-header">
+                    LearnHub
+                </h1>
+                <p class="foot-para">
+                    © 2022 Tailwind Labs Inc. All rights reserved.
+                </p>
+                 <span class="span-left">
+                    Form
+                 </span>
+                 <span class="span-right">
+                    Notes
+                 </span>
+             </footer>
+ <script src="app.js"></script>
+</body>
+</html>
